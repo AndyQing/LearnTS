@@ -1,0 +1,20 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "target": "ES6",
+        // "module": "es2015",
+        // "lib": ["dom"]//lib一般不用设置
+        "outDir": "./dist", //用来指定编译文件所在的目录
+        // "outFile": "./dist/app.js", //所有的全局作用域中的代码会合并到同一个文件中，用的不多
+        // "allowJs": false, //默认是false，是否对js文件进行编译
+        // "checkJs": false, //默认是false，
+        // "removeComments": true, //是否移除注释
+        // "noEmit": true, //不生成编译后的文件
+        // "noEmitOnError": true, //当有错误时不生成编译后的文件
+        // "strict": true, //所有严格检查的总开关
+        // "alwaysStrict": true, //使用严格模式
+        // "noImplicitAny": false, //不允许隐式的any类型
+    }
+}
