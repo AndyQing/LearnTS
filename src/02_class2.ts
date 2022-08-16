@@ -3,7 +3,7 @@
 
 (function () {
     //父类
-    //添加abstract，表示抽象类，只是不能用来创建实例对象，依然可以继承
+    //添加abstract，表示抽象类，只是不能用来创建实例对象，它专门用来被继承
     //抽象类中可以添加抽象方法
     abstract class Animal {
         name: string;
